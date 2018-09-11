@@ -3,8 +3,10 @@
 	background-color: #f5f5dc;
 	
 }
-ul 
+.header
 {
+	position: sticky;
+	top: 0;
 	border-style: dotted;
 	border-color: black;
 	background-color: #722f37;
@@ -12,16 +14,19 @@ ul
 	font-size: 24px;
 	word-spacing: 50px;
 	color: #f5f5dc;
-	font-style: serif;	
+	font-family: "aldrich";	
 }
 a 
 {
 	color: #f5f5dc;
 }
-img
+
+.parkering 
 {
-	height: 250px;
 	width: 500px;
-	position: center;
-	
+	height: 250px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
 }
