@@ -16,6 +16,9 @@
 	word-spacing: 50px;
 	color: #f5f5dc;
 	font-family: "aldrich";	
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
 }
 a 
 {
@@ -24,7 +27,7 @@ a
 
 .parkering 
 {
-	width: 500px;
+	width: 800px;
 	height: 250px;
 	display: block;
 	margin-left: auto;
@@ -45,10 +48,12 @@ a
 	font-size: 40px;
 	text-align: center;
 	font-family: "roboto";
-	color: #f5f5dc;
-	
+	color: #722f37;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .info 
 {
-	
+	text-align: center;
+	font-family: "scada";
+	color: #f5f5dc
 }
