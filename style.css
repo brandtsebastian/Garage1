@@ -41,6 +41,9 @@ a
 
 .indextext
 {
+	margin-top: 20px;
+	border-style: solid;
+	border-color: black;
 	background-color: #003366;
 	width: 1000px;
 	height: 3000px;
