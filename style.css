@@ -5,34 +5,101 @@ Sebastian Brandt
 .mainbody
  {
 	background-color: #f5f5dc;
-	
 }
+
 .header
 {
-	
 	position: sticky;
 	top: 0;
-	border-style: dotted;
+	border-style: solid;
 	border-color: black;
 	background-color: #722f37;
-	text-align: center;
-	font-size: 24px;
 	word-spacing: 50px;
 	color: #f5f5dc;
-	font-family: "aldrich";	
+	font-family: "Anton";	
 	margin-left: auto;
 	margin-right: auto;
 	width: 800px;
+	height: 55px;
+	box-shadow: 1px 1px 1px 1px black;
 }
-a 
+.index
 {
+	border-right-style: solid;
+	border-left-style: solid;
 	color: #f5f5dc;
+	border-color: black;
+	border-width: 3px;
+	width: 65px;
+	height: 55px;
+	margin-left: 170px;
+	text-align: center;
+	font-size: 30px;
+	display: inline-block;
 }
-
+.tjanster
+{
+	border-right-style: solid;
+	color: #f5f5dc;
+	border-color: black;
+	border-width: 3px;
+	width: 125px;
+	height: 55px;
+	margin-left: -55px;
+	text-align: center;
+	font-size: 30px;
+	display: inline-block;
+}
+.boka
+{
+	border-right-style: solid;
+	color: #f5f5dc;
+	border-color: black;
+	border-width: 3px;
+	width: 75px;
+	height: 55px;
+	margin-left: -55px;
+	text-align: center;
+	font-size: 30px;
+	display: inline-block;
+}
+.kontakt
+{
+	border-right-style: solid;
+	color: #f5f5dc;
+	border-color: black;
+	border-width: 3px;
+	width: 115px;
+	height: 55px;
+	margin-left: -55px;
+	text-align: center;
+	font-size: 30px;
+	display: inline-block;
+}
+.hitta
+{
+	border-right-style: solid;
+	color: #f5f5dc;
+	border-color: black;
+	border-width: 3px;
+	width: 75px;
+	height: 55px;
+	margin-left: -55px;
+	text-align: center;
+	font-size: 30px;
+	display: inline-block;
+}
+a
+{
+	color: #003366;
+	text-align: center;
+	font-size: 30px;
+	text-shadow: 1px 1px 1px black;
+}
 .parkering 
 {
-	width: 800px;
-	height: 250px;
+	width: 805px;
+	height: 300px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -62,5 +129,81 @@ a
 {
 	text-align: center;
 	font-family: "scada";
-	color: #f5f5dc
+	color: #f5f5dc;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.copyright
+{
+	border-top: 3px solid white;
+	height: 35px;
+	background-color: black;
+	width: 80%;
+	position: relative;
+	bottom: 0%;
+	left: 10%;
+}
+.container
+{
+	margin: 0 auto;
+	max-width: 1000px;
+}
+.fottext
+{
+	text-align: center;
+	margin-top: 4px;
+	width: 100%;
+	font-family: "anton";
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+.lorem
+{
+	font-family: "anton";
+	text-align: center;
+	color: #f5f5dc;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.priser
+{
+	height: 100px;
+	width: 30%;
+	position: absolute;
+	top: 75px;
+	left: 0;
+	right: 0;
+	margin-left: 10px;
+}
+.prisbox
+{
+	padding: 10px;
+}
+table 
+{
+	padding: 10px; 
+	border: 3px solid #722f37;
+}
+td 
+{
+	padding: 10px; 
+	border: 3px solid #722f37;
+}
+.kontaktbox
+{
+	margin-top: 20px;
+	border-style: solid;
+	border-color: black;
+	background-color: #003366;
+	width: 50%;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.kontaktinfo 
+{
+	text-align: center;
+	font-family: "scada";
+	color: #f5f5dc;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-size: 30px;
 }
