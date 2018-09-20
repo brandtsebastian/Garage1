@@ -99,11 +99,11 @@ a
 .parkering 
 {
 	width: 805px;
-	height: 300px;
+	height: 500px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 5px;
+	margin-top: 10px;
 }
 
 .indextext
@@ -169,10 +169,10 @@ a
 	height: 100px;
 	width: 30%;
 	position: absolute;
-	top: 75px;
+	top: 68px;
 	left: 0;
 	right: 0;
-	margin-left: 10px;
+	margin-left: 50px;
 }
 .prisbox
 {
@@ -206,4 +206,18 @@ td
 	color: #f5f5dc;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	font-size: 30px;
+}
+.rubrik
+{
+	width: 34.8%;
+	height: 60px;
+	margin-left: 32.7%;
+	font-family: "anton";
+	font-size: 40px;
+	border-style: solid;
+	border-color: black;
+	background-color: #722f37;
+	text-align: center;
+	color: #003366;
+	text-shadow: 1px 1px 1px black;
 }
