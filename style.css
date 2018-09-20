@@ -225,6 +225,7 @@ td
 	left: 0;
 	right: 0;
 	margin-left: 35%;
+	margin-top: 3%;
 }
 .tjanstbox
 {
@@ -243,7 +244,7 @@ td
 .tjanstr
 {
 	margin-top: 20px;
-	border: dotted black 1px;
+	border: dotted black 2px;
 	background-color: #f5f5dc;
 	width: 60%;
 	height: 300px;
