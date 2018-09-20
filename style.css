@@ -34,6 +34,7 @@ Sebastian Brandt
 	text-align: center;
 	font-size: 30px;
 	display: inline-block;
+	margin-left: 125px;
 }
 .tjanster
 {
@@ -68,6 +69,19 @@ Sebastian Brandt
 	border-color: black;
 	border-width: 3px;
 	width: 115px;
+	height: 55px;
+	margin-left: -55px;
+	text-align: center;
+	font-size: 30px;
+	display: inline-block;
+}
+.information
+{
+	border-right-style: solid;
+	color: #f5f5dc;
+	border-color: black;
+	border-width: 3px;
+	width: 70px;
 	height: 55px;
 	margin-left: -55px;
 	text-align: center;
@@ -130,6 +144,7 @@ a
 	font-family: "scada";
 	color: #f5f5dc;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-size: 20px;
 }
 .copyright
 {
@@ -157,17 +172,18 @@ a
 }
 .lorem
 {
-	font-family: "anton";
+	font-family: "scada";
 	text-align: center;
 	color: #f5f5dc;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-size: 18px;
 }
 .priser
 {
 	height: 100px;
 	width: 30%;
 	position: absolute;
-	top: 68px;
+	top: 300px;
 	left: 0;
 	right: 0;
 	margin-left: 50px;
