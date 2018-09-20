@@ -251,3 +251,19 @@ td
 	margin-left: auto;
 	margin-right: auto;
 }
+.platsbokning
+{
+	margin-top: 5px;
+	border: dotted black 2px;
+	background-color: #f5f5dc;
+	width: 60%;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "scada";
+	
+}
+.platsbox
+{
+	margin-left: 37%;
+}
