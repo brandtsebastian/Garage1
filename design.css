@@ -1,0 +1,118 @@
+﻿html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video 
+/*CSS Reset */
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+.blackbar 
+{
+	background-color: black;
+	font-family: "Lobster";
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	width: 100%;
+	
+}
+body
+{
+	background-color: black;
+	width: 100%;
+}
+.infotext
+{
+	width: 40%;
+	height: 250px;
+	margin-left: 62vh;
+	position: absolute;
+	top: 130px;
+	left: 0px;
+	z-index: 1;
+	border: 2px solid white;
+	box-shadow: 1px 1px 1px 1px;
+	
+}
+.textinfo
+{
+	text-align: center;
+	font-family: "arimo";
+	font-weight: 700;
+	opacity: 1;
+	font-size: 25px;
+	color: white;
+	text-shadow: 1.5px 1.5px black;
+}
+li
+{
+	font-family: "arimo";
+	font-size: 18px;
+	margin-left: 35px;
+	margin-top: 8px;
+	color: white;
+	text-shadow: 1.5px 1.5px black;
+}
+.bgimg
+{
+	width: 100%;
+}
+.linkrefs
+{
+	text-align: center;
+	font-family: "Arimo";
+	color: white;
+	text-decoration: none;
+	border: solid white 2px;
+	box-sizing: border-box;
+	text-transform: uppercase;
+	font-size: 16px;
+	position: relative;
+	padding: 0.5em 2.5em;
+	margin-left: 5px;
+	bottom: 30vh;
+	left: 65vh;
+	transition: color 0.5s ease, border-color 0.5s ease;
+}
+.linkrefs:hover
+{
+	color: #479b0f;
+	border-color: #479b0f;
+}
+.copyright
+{
+	height: 30px;
+	background-color: black;
+	width: 80%;
+	position: fixed;
+	bottom: 0%;
+	left: 10%;
+}
+.container
+{
+	margin: 0 auto;
+	max-width: 1000px;
+}
+.fottext
+{
+	text-align: center;
+	margin-top: 4px;
+	width: 100%;
+	color: white;
+	font-family: "arimo";
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
